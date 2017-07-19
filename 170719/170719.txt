@@ -23,7 +23,8 @@ iso
  - java se development 설치되있어야됨 (프로그램 추가제거 확인)
 
 4. android studio 설치(C:\Program Files\Android\Android Studio 확인)
- - https://developer.android.com/index.html 
+ - https://developer.android.com/index.html (크롬에서 설치)
+ - sdk만 체크
 
 5. unity 설정 (현재 apk저장경로 : C:\vr_ide\android_sdk_ide\workspace\Test01,
 현재 unity저장경로 : C:\vr_ide\android_sdk_ide\workspace\Test01\Assets)
