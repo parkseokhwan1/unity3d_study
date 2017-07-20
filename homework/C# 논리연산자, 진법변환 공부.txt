@@ -1,0 +1,22 @@
+<논리연산자>
+
+참고 : https://docs.microsoft.com/ko-kr/dotnet/csharp/language-reference/operators/conditional-and-operator
+
+XOR
+
+
+
+
+<진법변환>
+16진수 -> 10진수
+2진수 -> 10진수
+10진수 -> 2진수
+10진수 -> 16진수
+
+
+참고 : http://www.csharpstudy.com/Tip/Tip-base-converter.aspx
+
+https://docs.microsoft.com/ko-kr/dotnet/csharp/programming-guide/types/how-to-convert-between-hexadecimal-strings-and-numeric-types
+
+
+http://blog.daum.net/shininglake/8167340
