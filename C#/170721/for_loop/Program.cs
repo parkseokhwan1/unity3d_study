@@ -66,21 +66,25 @@ namespace for_loop
             }
             =========================================================================*/
 
-            /*
-            for (int a = 1; a <= 5; a++)
-            {
-                for(int b = 1; b <= 5; b++)
+            
+            
+                for (int a = 1; a <= 9; a += 2)
                 {
-                    Console.Write(" ");
+                    for (int b = 1; b <= (9-a)/2; b++)
+                    {
+                        Console.Write("0");
+                    }
+                Console.Write("*");
+                Console.WriteLine();
                 }
-                Console.WriteLine("*");
-            }
-            */
+            
+            
 
 
             // 반복문탈출
             // continue : 현재 조건을 건너뜀 (현재 상황만 탈출하고 다시 복귀)
             // break : 가장 가까운 반복문 탈출
+            /*
             for (int k=1; k<3; k++)
              for (int i=1; i<12; i++)  
             {
@@ -91,7 +95,7 @@ namespace for_loop
                 if (i == 9) break;
                     Console.WriteLine(i);
             }
-
+            */
         }
     }
 }
