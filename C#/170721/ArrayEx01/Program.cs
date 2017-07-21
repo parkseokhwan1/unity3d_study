@@ -8,18 +8,29 @@ namespace ArrayEx01
 {
     class Program
     {
+        // 배열에 있어서 표준적으로 사용하능 기능은
+        // Array 기능(배열) 사용
         static void Main(string[] args)
         {
-           
-            float[] fnum = new float[3];            // 빈배열
-            fnum[0] = 0.1f;
-            fnum[1] = 0.01f;
-            fnum[2] = 0.001f;
-            for (int i = 0; i < 3; i++)
-                Console.WriteLine("float 배열 1 => " + fnum[i]);
+            int row, col;
+            string inputdata;
 
-            float[] fnum2 = /* (new float[]) */ { 0.9f, 0.8f, 0.7f, 0.6f, 0.5f };       // 생성과 동시에 초기화
-            Console.WriteLine("float 배열 2 => " + fnum2[4]);
+            Console.Write("row->");
+            inputdata = Console.ReadLine();
+            row = int.Parse(inputdata);
+
+            Console.Write("col->");
+            inputdata = Console.ReadLine();
+            col = int.Parse(inputdata);
+
+            int[,] arr = new int[row, col];
+            for (int i = 0; i < row; i++)
+            {
+                for (int j = 0; j < col; j++)
+                    Console.Write("  " + arr[i, j]);
+                Console.WriteLine();
+            }
+
         }
     }
 }
@@ -50,3 +61,62 @@ namespace ArrayEx01
                Console.WriteLine("int 배열 2 => " + num2[3]);
 
    */
+
+
+
+//float[] fnum = new float[3];            // 빈배열
+//fnum[0] = 0.1f;
+//fnum[1] = 0.01f;
+//fnum[2] = 0.001f;
+//for (int i = 0; i < 3; i++)
+//    Console.WriteLine("float 배열 1 => " + fnum[i]);
+
+//float[] fnum2 = /* (new float[]) */ { 0.9f, 0.8f, 0.7f, 0.6f, 0.5f };       // 생성과 동시에 초기화
+//Console.WriteLine("float 배열 2 => " + fnum2[4]);
+
+
+
+
+
+//int[] num = { 3, 2, 1, 6, 7, 9, 8 };
+//Array.Sort(num);        // 배열 정렬
+//for(int i=0; i<7; i++)
+//{
+//    Console.Write("  " + num[i]);
+//}
+
+
+
+/*
+            // 다차원 배열
+            int[] num;
+            int[,] num2;
+            int[,,] num3;
+
+            num = new int[2];
+            // [][]
+            num2 = new int[2, 3];
+            // [][][]
+            // [][][]
+            for (int i = 0; i < 2; i++)
+            {
+                for (int j = 0; j < 3; j++)
+                    Console.Write("  " + num2[i, j]);
+                Console.WriteLine();
+            }
+            */
+
+
+
+//num3 = new int[2, 3, 4];
+// [] - [][][][]
+//      [][][][]
+//      [][][][]
+// []
+
+/*
+int count = 3;
+int[] num4 = new int[count];
+for (int i = 0; i < num4.Count<int>(); i++)
+    Console.WriteLine("갯수" + num4[i]);
+ */
