@@ -12,9 +12,11 @@ namespace ArrayEx01
         // Array 기능(배열) 사용
         static void Main(string[] args)
         {
+            /*
             int row, col;
             string inputdata;
 
+            
             Console.Write("row->");
             inputdata = Console.ReadLine();
             row = int.Parse(inputdata);
@@ -30,7 +32,14 @@ namespace ArrayEx01
                     Console.Write("  " + arr[i, j]);
                 Console.WriteLine();
             }
+            */
 
+            // 배열변수.length => 전체 배열의 개수
+            int[] arrdata = new int[5];
+            Console.WriteLine(arrdata.Length);      // 배열의 개수
+
+            int[,] arrdata2 = new int[3,5];
+            Console.WriteLine(arrdata2.Length);      // 배열의 개수
         }
     }
 }
