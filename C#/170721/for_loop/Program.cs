@@ -72,9 +72,13 @@ namespace for_loop
                 {
                     for (int b = 1; b <= (9-a)/2; b++)
                     {
-                        Console.Write("0");
+                        Console.Write(" ");
                     }
-                Console.Write("*");
+                    for (int c = 1; c <= a; c++)
+                    {
+                        Console.Write("*");
+                    }
+               
                 Console.WriteLine();
                 }
             
