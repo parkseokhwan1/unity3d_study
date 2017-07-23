@@ -48,7 +48,7 @@ namespace data_input
                     Console.WriteLine("sun");
                     break;
                 default:
-                    Console.WriteLine("wrond");
+                    Console.WriteLine("wrong");
                     break;
             }
 
