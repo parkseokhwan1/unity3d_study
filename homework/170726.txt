@@ -1,0 +1,36 @@
+UML 공부 (정의, ...) https://m.blog.naver.com/PostView.nhn?blogId=kkpa1002&logNo=20124297794&proxyReferer=https%3A%2F%2Fwww.google.co.kr%2F
+
+<UML>
+
+ - Unified Modeling Language의 약자로 1997년 OMG(Object Management Group)에서 표준으로 채택한 통합모델링언어 
+ -  다른 사람들과의 의사소통 또는 설계 논의
+ - 전체 시스템의 구조 및 클래스의 의존성 파악
+ - 유지보수를 위한 설계의 back-end 문서
+
+
+diagram 종류, 사용법
+
+1) 유스케이스 다이어그램 (Usecase Diagram)
+ - 유스케이스란 말 그대로 컴퓨터 시스템과 사용자가 상호작용을 하는 하나의 경우
+ - 시스템 구축의 초기에 이 시스템이 어떠한 일을 하는지에 대한 부분을 사용자 입장에서 이해할 수 있을 정도로 기술을 하여야 한다
+
+2) 클래스 다이어그램 (Class Diagram)
+ - 시스템 내부에 존재하는 클래스들을 선별하여 나타내고 각 클래스들의 속성(Attribute)과 행위(Behavior)를 기입
+
+3) 시퀸스 다이어그램 (Sequence Diagram)
+ - 콜레버레이션 다이어그램과 함께 시스템의 동적인 면을 나타내는 대표적인 다이어그램
+
+4) 콜레버레이션 다이어그램 (Collaboration Diagram)
+ - 시퀸스 다이어그램과 함께 메시지의 흐름을 나타낸다
+
+5) 상태 다이어그램 (Statechart Diagram)
+ - 한 객체의 상태 변화를 다이어그램으로 나타낸 것
+
+6) 액티비티 다이어그램 (Activity Diagram)
+ - 시스템 내부에 존재하는 여러가지 행위들 그리고 각 행위의 분기, 분기되는 조건 등을 모두 포함
+
+7)  디플로이먼트 다이어그램 (Deployment Diagram) 과 컴포넌트 다이어그램 (Component Diagram)
+ - 시스템의 물리적인 부분의 구성을 나타낸다 
+
+
+ex) class diagram, sequence diagram, ...
