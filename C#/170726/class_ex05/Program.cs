@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace class_ex05
+namespace class_ex05  
 {
     class AAA
     {
-
+          
         int m_a, m_b;
         // this.m_a; , 연산자, 클래스의 내부데이터
         // 클래스내의 : 연산자 영역지정 연산자
