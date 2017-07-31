@@ -1,0 +1,10 @@
+mc파일을 obj 파일로 변환하는 툴
+
+1. http://kr.xyzprinting.com/kr_ko/Product/XYZmaker
+2. http://3doc.i3dconverter.com/index.html
+3. http://www.meshconvert.com/
+
+
+
+
+linked list 공부
