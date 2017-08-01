@@ -1,0 +1,129 @@
+{
+   "checksum": "2a263ff9ed1fc28823edc5a50bf5f674",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13142650157507778",
+            "id": "6",
+            "name": "진흥원_C언어수업 - Google 드라이브",
+            "type": "url",
+            "url": "https://drive.google.com/drive/folders/0B2SIfUvbN7xEZUd1ZG44T2dmNFE"
+         }, {
+            "date_added": "13142909437910031",
+            "id": "9",
+            "name": "전주정보문화산업진흥원 ▶ 진흥원소식 ▶ 교육안내의 \"유니티3D 게임제작 전문가 양성과정 교육생 모집 |\" 게시물 상세보기",
+            "type": "url",
+            "url": "http://www.jica.or.kr/2016/inner.php?sMenu=A3000&mode=view&no=40"
+         }, {
+            "date_added": "13142909558039748",
+            "id": "10",
+            "name": "gbox3d (밥을먹는선비)",
+            "type": "url",
+            "url": "https://github.com/gbox3d"
+         }, {
+            "date_added": "13142917373423576",
+            "id": "11",
+            "meta_info": {
+               "last_visited_desktop": "13145327717454586"
+            },
+            "name": "OpenGameArt.org",
+            "type": "url",
+            "url": "https://opengameart.org/"
+         }, {
+            "date_added": "13142995106707630",
+            "id": "14",
+            "meta_info": {
+               "last_visited_desktop": "13146038165655026"
+            },
+            "name": "The world's leading software development platform · GitHub",
+            "type": "url",
+            "url": "https://github.com/"
+         }, {
+            "date_added": "13143628055847642",
+            "id": "17",
+            "meta_info": {
+               "last_visited_desktop": "13145327728710421"
+            },
+            "name": "Online Photo Editor | Pixlr Editor",
+            "type": "url",
+            "url": "http://pixlr.com/editor/"
+         }, {
+            "date_added": "13144213625960008",
+            "id": "20",
+            "meta_info": {
+               "last_visited_desktop": "13145327752682415"
+            },
+            "name": "Irrlicht Engine - A free open source 3D engine",
+            "type": "url",
+            "url": "http://irrlicht.sourceforge.net/"
+         }, {
+            "date_added": "13144724897609116",
+            "id": "23",
+            "meta_info": {
+               "last_visited_desktop": "13145327762910945"
+            },
+            "name": "Node.js",
+            "type": "url",
+            "url": "https://nodejs.org/ko/"
+         }, {
+            "date_added": "13144811321480019",
+            "id": "26",
+            "meta_info": {
+               "last_visited_desktop": "13145327778958394"
+            },
+            "name": "WasmFiddle",
+            "type": "url",
+            "url": "https://wasdk.github.io/WasmFiddle/"
+         }, {
+            "date_added": "13144898266959908",
+            "id": "29",
+            "meta_info": {
+               "last_visited_desktop": "13145327794084575"
+            },
+            "name": "MagicaVoxel",
+            "type": "url",
+            "url": "https://ephtracy.github.io/#ss-carousel_ss"
+         }, {
+            "date_added": "13144920354614850",
+            "id": "30",
+            "meta_info": {
+               "last_visited_desktop": "13145519501286051"
+            },
+            "name": "Unity - Game Engine",
+            "type": "url",
+            "url": "https://unity3d.com/kr"
+         }, {
+            "date_added": "13145672383130608",
+            "id": "33",
+            "meta_info": {
+               "last_visited_desktop": "13145672615025749"
+            },
+            "name": "Alongside Y - YouTube",
+            "type": "url",
+            "url": "https://www.youtube.com/channel/UCMhnWDQrvz77ICYvBIX8z7w/videos"
+         } ],
+         "date_added": "13142649532363890",
+         "date_modified": "13145672383130608",
+         "id": "1",
+         "name": "북마크바",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13142649532363905",
+         "date_modified": "0",
+         "id": "2",
+         "name": "기타 북마크",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13142649532363907",
+         "date_modified": "0",
+         "id": "3",
+         "name": "모바일 북마크",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}
