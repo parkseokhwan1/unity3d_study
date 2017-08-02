@@ -17,7 +17,7 @@ namespace Generic
             {
                 return array[index];
             }
-
+             
             set
             {
                 if (index >= array.Length)

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+ 
 // 일반화(Generic) 클래스 - 템플릿(c++) 클래스
 // java, c#
 // 클래스 선언시 필요한 내부의 멤버 자료형이 
