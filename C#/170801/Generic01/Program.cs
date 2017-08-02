@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 // 일반화 메서드
 // 함수에 사용되는 자료형을 공통자료형으로 셋팅한 메서드
 // 리턴타입 메서드명 <T> (파라미터)     // T형 변수
-
+ 
 class Program
 {
     static void calculate <T>(T x, T y)
