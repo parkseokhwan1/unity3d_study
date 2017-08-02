@@ -22,7 +22,7 @@ using System.Threading.Tasks;
         get/set 사용
    }
  */
- 
+  
 class K
 {
     int[] num = new int[4];     // private
