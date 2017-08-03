@@ -10,8 +10,10 @@ material?	재질(색상)
 texture?	객체에 입히는 이미지
 vertex		점		
 edge		선	
-polygon		다각형, mesh의 한 단위		
-mesh		면
+polygon		3개의 정점으로 만들어진 삼각형		
+mesh		면, 폴리곤들이 모여서 하나의 3차원 물체를 만들게 되는데 이것을 메쉬(Mesh)
+
+
 
 
 wireframe	3d 객체가 외곽선(뼈대)만 표시됨
@@ -21,3 +23,9 @@ vector3(x,y,z)
 vector4(a,b,c,d)
 
 단위벡터의미	길이가 1인 벡터
+
+
+<rigidbody - constrants>
+
+freeze position - 위치제약
+       rotation - 회전제약
