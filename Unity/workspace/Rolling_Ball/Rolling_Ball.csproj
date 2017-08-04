@@ -78,7 +78,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\aa.cs" />
+    <Compile Include="Assets\StageControl.cs" />
+    <Compile Include="Assets\Temp\aa.cs" />
+    <Compile Include="Assets\TitleLogic.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
