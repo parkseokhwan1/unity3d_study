@@ -78,11 +78,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\bullet_control.cs" />
-    <Compile Include="Assets\char_control.cs" />
-    <Compile Include="Assets\flying_test1.cs" />
-    <Compile Include="Assets\land_control.cs" />
-    <Compile Include="Assets\scroll_bg.cs" />
+    <Compile Include="Assets\Script\GameData.cs" />
+    <Compile Include="Assets\Script\GameRule_logic.cs" />
+    <Compile Include="Assets\Script\flying_test1.cs" />
+    <Compile Include="Assets\Script\scroll_bg.cs" />
+    <Compile Include="Assets\Script\title_logic.cs" />
+    <Compile Include="Assets\Src_Character\boss_control.cs" />
+    <Compile Include="Assets\Src_Character\bullet_control.cs" />
+    <Compile Include="Assets\Src_Character\char_control.cs" />
+    <Compile Include="Assets\Src_Character\enemy_control.cs" />
+    <Compile Include="Assets\Src_Character\land_control.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

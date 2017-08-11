@@ -1,4 +1,4 @@
-﻿using System.Collections;
+﻿    using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -21,7 +21,7 @@ public class land_control : MonoBehaviour {
             if(other.name == "player")
             {
                 print("바닥에 충돌");
-                //GameData.hp = 0f;
+                GameData.m_player_life = 0f;
                 //GameData.state = gameover;
                 //Play, over, pause
             }
@@ -33,7 +33,7 @@ public class land_control : MonoBehaviour {
         if (collision.gameObject.name == "player")
         {
             print("건물에 충돌 => " + this.gameObject.name);
-            //GameData.hp -= 10f;
+            GameData.m_player_life -= 10f;
             BoxCollider bc = collision.gameObject.GetComponent<BoxCollider>();
 
             bc.isTrigger = true;

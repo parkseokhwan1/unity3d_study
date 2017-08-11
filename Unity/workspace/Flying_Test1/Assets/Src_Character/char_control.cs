@@ -14,16 +14,29 @@ public class char_control : MonoBehaviour {
     public Transform fire_point;
     // public Text time_data;
     public GameObject bullet;   // 임시객체를 연결하기 위해서
+    BoxCollider mycollider;     // 내 충돌체 정보를 받을 데이터 변수
+    public float godtime;       // 무적일때 시간값을 받음
 
     void Start () {
         // down_value = 1f;
-
+        mycollider = this.gameObject.GetComponent<BoxCollider>();
+        godtime = 0;
     }
 	
 	// Update is called once per frame
 	void Update () {
         down_force = Vector3.down * Time.deltaTime * down_value;
         this.transform.Translate(down_force + up_force);
+        // 내 충돌체 속성 변경 - 무적일때(trigger - 3초후 - collider)
+        if(mycollider.isTrigger == true)
+        {
+            godtime += Time.deltaTime;
+            if(godtime >= 3.0f)     // 3초후에는 일반으로
+            {
+                mycollider.isTrigger = false;
+                godtime = 0;
+            }
+        }
 	}
 
     public void AllButtonDown()
@@ -40,9 +53,10 @@ public class char_control : MonoBehaviour {
         // 객체의 정보, 위치, 방향   (구형 4,5 버전 초기as 형변환 => 현재는 안씀)
         // 어느위치에 어느방향을 기준으로 생성할 것인가
 
-        GameObject temp = Instantiate(bullet, fire_point.position, fire_point.rotation);
         // 정보가 없기때문에 추가 셋팅이 불가 => 임시적으로 받을 변수가 필요
         // => 지역변수로 선언
+
+        GameObject temp = Instantiate(bullet, fire_point.position, fire_point.rotation);
         Rigidbody temp2 = temp.GetComponent<Rigidbody>();
         temp2.AddForce(fire_point.forward * 1000f);
 
@@ -57,5 +71,15 @@ public class char_control : MonoBehaviour {
     {
         // down_value = -1f;
         up_force = Vector3.zero;
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        print(other.tag);
+        if (other.tag == "bullet")
+        {
+            GameData.m_player_life -= 10;
+            Destroy(other.gameObject);
+        }
     }
 }
