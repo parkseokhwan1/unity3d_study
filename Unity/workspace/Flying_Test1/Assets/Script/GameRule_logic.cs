@@ -16,18 +16,43 @@ public class GameRule_logic : MonoBehaviour {
     public Text sec_temp;       
     public Text playerlife_temp;
     public Text bosslife_temp;
+    public GameObject UI1, UI2;
 
-    // Use this for initialization
+    private void Awake()
+    {
+        UI_change(UI1, UI2);
+    }
+
+    void UI_change(GameObject ui1, GameObject ui2)
+    {
+        if (GameData.istarget_phone == true)
+        {
+            ui1.SetActive(true);
+            ui2.SetActive(false);
+        }
+        else
+        {
+            ui1.SetActive(false);
+            ui2.SetActive(true);
+        }
+    }
+
     void Start () {
-        timesec = 35;
+        timesec = 0;
+        //print(Screen.width / Screen.height);
+        //print(Screen.height);
+        float width_ = (float)Screen.width;
+        float height_ = (float)Screen.height;
+        float resval = width_ / height_;
+        print(resval);
     }
 
     void debug_ui()             
     {
         int temp_sec = (int)timesec;
-        sec_temp.text = temp_sec.ToString();
-        playerlife_temp.text = GameData.m_player_life.ToString();
-        bosslife_temp.text = GameData.m_boss_life.ToString();
+        sec_temp.text = "Time : " + temp_sec.ToString();
+        playerlife_temp.text = "Life : " + GameData.m_player_life.ToString();
+        bosslife_temp.text = "Boss : " + GameData.m_boss_life.ToString();
     }
     
 	// Update is called once per frame

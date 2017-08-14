@@ -11,4 +11,6 @@ public class GameData : MonoBehaviour {
     static public bool isBossInfinity = true;
     // 보스의 상태   1 : 무적  0 : 무적이 아님
     static public float m_boss_life = 100f;
+
+    static public bool istarget_phone = true;
 }
