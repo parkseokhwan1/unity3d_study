@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Block_Loop : MonoBehaviour {
-    public float Block_Speed = 6;
+    public float Block_Speed = 5;
 
     public GameObject[] Block;      // 프리팹받는 배열
 
